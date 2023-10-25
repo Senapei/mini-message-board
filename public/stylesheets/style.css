@@ -1,8 +1,39 @@
+:root {
+  background-color: purple;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  max-height: 80vh;
+}
+
+.message-container {
+  background-color: rgb(196, 42, 196);
+  max-width: 400px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.message-container ul {
+  list-style: none;
+}
+
+/* new page */
+.input-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
